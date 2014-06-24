@@ -69,6 +69,11 @@ Days retention limit, by default: 30 days.
 The oldest files are deleted when purging (local-history:purge).
 
 
+## TODO
+
+  * The diff between 2 revisions
+
+
 ## LICENSE
 
 [MIT](https://github.com/Nicolab/atom-local-history/blob/master/LICENSE.md)
