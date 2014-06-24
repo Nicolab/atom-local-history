@@ -1,0 +1,5 @@
+/node_modules/
+/.Trash-1000/
+.DS_Store
+Thumbs.db
+*.log
