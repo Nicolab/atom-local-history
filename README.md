@@ -34,19 +34,22 @@ Or Settings ➔ Packages ➔ Search for `local-history`
 
 ## Usage
 
-Commands
+Show the history of the current file:
+
+  * From the context menu (right click)
+
+![Contextual menu](http://i.imgur.com/HNeP768.png)
+
+
+  * Or with the command
 
 ![Commands](http://i.imgur.com/3UAfYHo.png)
 
 
-Revisions list
+Then, select the revision to open in another tab
 
 ![Revisions list](http://i.imgur.com/x14qm5n.png)
 
-
-From the context menu (right click)
-
-![Contextual menu](http://i.imgur.com/HNeP768.png)
 
 ### command
 
