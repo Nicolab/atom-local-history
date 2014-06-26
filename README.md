@@ -77,7 +77,7 @@ The oldest files are deleted when purging (local-history:purge).
   * Automatic purge (triggered, max 1 per day).
   * The diff between 2 revisions.
 
-> Contributions are welcom.
+> Contributions are welcome.
 
 
 ## LICENSE
