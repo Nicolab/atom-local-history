@@ -74,7 +74,10 @@ The oldest files are deleted when purging (local-history:purge).
 
 ## TODO
 
-  * The diff between 2 revisions
+  * Automatic purge (triggered, max 1 per day).
+  * The diff between 2 revisions.
+
+> Contributions are welcom.
 
 
 ## LICENSE
