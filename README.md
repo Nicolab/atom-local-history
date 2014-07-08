@@ -23,6 +23,7 @@ For maintaining a history of the files revisions like mostly code editors:
     or if you get disk errors that corrupt your workspace files.
   * Each file revision is stored in a separate file (with full path) inside the `.atom/local-history` directory of your home directory.
     e.g: `/home/nicolas/.atom/local-history/var/www/my-great-project/lib/2014-06-21_17.05.43.utils.js`
+  * Show diff and merge with your favorite diff tool.
 
 
 ## Install
@@ -54,6 +55,7 @@ Then, select the revision to open in another tab
 ### command
 
   * `local-history:current-file` show local history of current file.
+  * `local-history:difftool-current-file` Open the current file and a given revision file with your defined diff tool (see [difftoolCommand](#difftoolCommand)).
   * `local-history:purge` purge the expired revisions (see [daysLimit](#dayslimit)).
 
 
@@ -72,10 +74,27 @@ Days retention limit, by default: 30 days.
 The oldest files are deleted when purging (local-history:purge).
 
 
+### difftoolCommand
+
+A custom command to open your favorite diff tool, by default: [meld](http://meldmerge.org).
+
+Example:
+
+```sh
+meld "{current-file}" "{revision-file}"
+```
+  * `{current-file}` is the placeholder replaced automatically by the path of the current file.
+  * `{revision-file}` is the placeholder replaced automatically by the path of the revision file selected.
+
+The actual command generated will be something like this:
+```sh
+meld "/var/www/my-project/my-current-file.js" "/home/nicolas/.atom/local-history/var/www/my-project/2014-07-08_19.32.00.my-current-file.js"
+```
+
+
 ## TODO
 
   * Automatic purge (triggered, max 1 per day).
-  * The diff between 2 revisions.
 
 > Contributions are welcome.
 

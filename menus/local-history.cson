@@ -1,7 +1,8 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
   '.overlayer':
-      'Show history of current file': 'local-history:current-file'
+      'Show history of current file': 'local-history:current-file',
+      'Open difftool: current file / revision file': 'local-history:difftool-current-file'
 
 'menu': [
   {
@@ -9,8 +10,18 @@
     'submenu': [
       'label': 'Local history'
       'submenu': [
-        { 'label': 'Show current file', 'command': 'local-history:current-file' },
-        { 'label': 'Purge expired revisions', 'command': 'local-history:purge' }
+        {
+          'label': 'Show current file',
+          'command': 'local-history:current-file'
+        },
+        {
+          'label': 'Open difftool: current file / revision file',
+          'command': 'local-history:difftool-current-file'
+        },
+        {
+          'label': 'Purge expired revisions',
+          'command': 'local-history:purge'
+        }
       ]
     ]
   }
