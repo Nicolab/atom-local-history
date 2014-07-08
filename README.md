@@ -6,7 +6,7 @@ Atom package for maintaining local history of files (history of your changes to 
 ## Why?
 
 For maintaining a history of the files revisions like mostly code editors:
-  * ["Local History" of the Eclipse IDE](http://help.eclipse.org/juno/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-6a.htm)
+  * ["Local History" of Eclipse IDE](http://help.eclipse.org/juno/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-6a.htm)
   * [The plugin "Local History" for SublimeText](https://github.com/vishr/local-history)
   * IntelliJ and other...
 
@@ -55,7 +55,7 @@ Then, select the revision to open in another tab
 ### command
 
   * `local-history:current-file` show local history of current file.
-  * `local-history:difftool-current-file` Open the current file and a given revision file with your defined diff tool (see [difftoolCommand](#difftoolCommand)).
+  * `local-history:difftool-current-file` Open the current file and a given revision file with your defined diff tool (see [difftoolCommand](#difftoolcommand)).
   * `local-history:purge` purge the expired revisions (see [daysLimit](#dayslimit)).
 
 
