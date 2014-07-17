@@ -1,7 +1,7 @@
 {
   "name": "local-history",
   "main": "./lib/local-history",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Maintaining local history of files (history of your changes to the code files).",
   "repository": {
     "type": "git",
