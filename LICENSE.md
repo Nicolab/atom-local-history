@@ -1,3 +1,5 @@
+local-history - https://github.com/Nicolab/atom-local-history
+
 The MIT License (MIT)
 
 Copyright (c) 2014 Nicolas Tallefourtane dev@nicolab.net
