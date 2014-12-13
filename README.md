@@ -22,7 +22,7 @@ For maintaining a history of the files revisions like mostly code editors:
   * The history can also help you out when your workspace has a catastrophic problem
     or if you get disk errors that corrupt your workspace files.
   * Each file revision is stored in a separate file (with full path) inside the `.atom/local-history` directory of your home directory.
-    e.g: `/home/nicolas/.atom/local-history/var/www/my-great-project/lib/2014-06-21_17.05.43.utils.js`
+    e.g: `/home/nicolas/.atom/local-history/var/www/my-great-project/lib/2014-06-21_17-05-43_utils.js`
   * Show diff and merge with your favorite diff tool.
 
 
@@ -88,7 +88,7 @@ meld "{current-file}" "{revision-file}"
 
 The actual command generated will be something like this:
 ```sh
-meld "/var/www/my-project/my-current-file.js" "/home/nicolas/.atom/local-history/var/www/my-project/2014-07-08_19.32.00.my-current-file.js"
+meld "/var/www/my-project/my-current-file.js" "/home/nicolas/.atom/local-history/var/www/my-project/2014-07-08_19-32-00_my-current-file.js"
 ```
 
 
@@ -101,7 +101,7 @@ meld "/var/www/my-project/my-current-file.js" "/home/nicolas/.atom/local-history
 
 ## LICENSE
 
-[MIT](https://github.com/Nicolab/atom-local-history/blob/master/LICENSE.md)
+[MIT](https://github.com/Nicolab/atom-local-history/blob/master/LICENSE.md) (c) 2013, Nicolas Tallefourtane.
 
 
 ## Author
