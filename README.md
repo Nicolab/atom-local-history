@@ -1,6 +1,6 @@
 # Local History for Atom
 
-Atom package for maintaining local history of files (history of your changes to the code files).
+Atom package for maintaining a local history of files (history of your changes to the code files).
 
 
 ## Why?
@@ -61,6 +61,12 @@ Then, select the revision to open in another tab
 
 ## Settings
 
+### AutoPurge
+
+Automatic purge (triggered, max 1 time per day).
+
+Disabled by default.
+You must check to enable this option.
 
 ### fileSizeLimit
 
@@ -70,7 +76,7 @@ The files heavier than the defined size will not be saved.
 
 ### daysLimit
 
-Days retention limit, by default: 30 days.
+Days retention limit, by default: 30 days by file.
 The oldest files are deleted when purging (local-history:purge).
 
 
@@ -90,13 +96,6 @@ The actual command generated will be something like this:
 ```sh
 meld "/var/www/my-project/my-current-file.js" "/home/nicolas/.atom/local-history/var/www/my-project/2014-07-08_19-32-00_my-current-file.js"
 ```
-
-
-## TODO
-
-  * Automatic purge (triggered, max 1 per day).
-
-> Contributions are welcome.
 
 
 ## LICENSE
