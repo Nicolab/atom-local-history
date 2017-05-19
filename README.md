@@ -61,7 +61,7 @@ Then, select the revision to open in another tab
 
 ## Settings
 
-## historyStoragePath
+### historyStoragePath
 
 Path where the revision files are stored.  
 By default in your Atom (home) directory : _.atom/local-history_.
@@ -101,6 +101,13 @@ The actual command generated will be something like this:
 ```sh
 meld "/var/www/my-project/my-current-file.js" "/home/nicolas/.atom/local-history/var/www/my-project/2014-07-08_19-32-00_my-current-file.js"
 ```
+
+### difftoolCommandShowErrorMessage
+
+Show the errors of the diff tool command.
+If checked, the errors are displayed in a message panel.
+
+Enabled by default.
 
 
 ## LICENSE
