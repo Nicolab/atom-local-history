@@ -61,6 +61,11 @@ Then, select the revision to open in another tab
 
 ## Settings
 
+## historyStoragePath
+
+Path where the revision files are stored.  
+By default in your Atom (home) directory : _.atom/local-history_.
+
 ### AutoPurge
 
 Automatic purge (triggered, max 1 time per day).
