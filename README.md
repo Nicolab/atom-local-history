@@ -2,6 +2,7 @@
 
 Atom package for maintaining a local history of files (history of your changes to the code files).
 
+> Need a new maintainer: I switched to VScode editor, I do not use Atom anymore. Because of this, it is not practical for me to maintain this package.
 
 ## Why?
 
